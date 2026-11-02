@@ -21,3 +21,11 @@ This record describes checks completed on the prepared Objective 3 package. It d
 Full training, GPU inference, checkpoint recovery, historical joblib loading, external evaluator authentication, upstream license clearance, complete bibliography verification, prospective learner evaluation and journal-readiness certification remain outside this verification.
 
 The GitHub CI workflow is supplied but its successful execution must be verified after files are published. The prepared archive is a usable fallback if browser/CLI access prevents upload; a repository scaffold alone should not yet be cited as a populated code-availability resource.
+
+## Post-upload public-clone verification
+
+The full research companion was subsequently uploaded to the public repository under `dharavathshivanayak201-debug`, in code commit `f3114d631c5e810f6e892ac1c4dc36706a14dd3a`. A new clone from GitHub contained 133 tracked files; preserved-input checks, all release-manifest hashes, public saved-output analysis and all 20 tests passed, with a clean working tree ([published code commit](https://github.com/dharavathshivanayak201-debug/akc-tutor-objective3/commit/f3114d631c5e810f6e892ac1c4dc36706a14dd3a)).
+
+The follow-up maintenance commit updates this record and moves CI to Ubuntu 24.04 and Node-24-based checkout/setup actions without changing scientific inputs or analysis code. GitHub runs the public checks, tests and figure generation for Python 3.11 and 3.12; consult the [live workflow history](https://github.com/dharavathshivanayak201-debug/akc-tutor-objective3/actions/workflows/ci.yml) for authoritative run status.
+
+Temporary collaborator access used for publication is a separate permission-management action, not a requirement for public cloning or reproduction. The repository owner remains `dharavathshivanayak201-debug`; no thesis-wide repository is created by this release.
