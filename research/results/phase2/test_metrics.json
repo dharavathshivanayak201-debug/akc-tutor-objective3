@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.6278867102396514,
+  "macro_f1": 0.4824460238681412,
+  "weighted_f1": 0.6183286748410733,
+  "n_train": 36308,
+  "n_dev": 4548,
+  "n_test": 4590,
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.4869634262513511,
+  "seed": 42,
+  "model": "FacebookAI/roberta-base",
+  "label_count": 28,
+  "subset": "single-label official simplified GoEmotions",
+  "test_used_for_tuning": false,
+  "macro_f1_bootstrap_95ci": [
+    0.46525391301937674,
+    0.49683935275498076
+  ],
+  "bootstrap_replicates": 1000
+}

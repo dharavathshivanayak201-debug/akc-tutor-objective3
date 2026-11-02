@@ -1,0 +1,17 @@
+{
+  "knowledge_features": [
+    "prior_attempts",
+    "prior_correct",
+    "prior_accuracy",
+    "prior_skill_attempts",
+    "prior_skill_correct",
+    "prior_skill_accuracy",
+    "prev_skill_correct"
+  ],
+  "behavioral_proxy_features": [
+    "recent_error_proxy",
+    "recent_change_proxy",
+    "previous_response_time"
+  ],
+  "warning": "Behavioral proxies are not emotion labels or measured learner affect."
+}

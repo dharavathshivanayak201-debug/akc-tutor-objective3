@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-11-02T14:39:29.459325+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130",
+  "sklearn": "1.6.1",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "model": "FacebookAI/roberta-base",
+  "max_length": 128,
+  "batch_size": 16,
+  "gradient_accumulation": 2,
+  "epochs_requested": 3,
+  "best_epoch": 3,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "seed": 42,
+  "dataset_url": "https://raw.githubusercontent.com/google-research/google-research/master/goemotions/data/",
+  "splits": {
+    "train": 36308,
+    "dev": 4548,
+    "test": 4590
+  },
+  "protocol": "Train-only fine-tuning; select best checkpoint by validation Macro-F1; held-out test once",
+  "baseline_protocol": "Phase I TF-IDF refitted on train+dev after validation C selection",
+  "limitations": [
+    "Reddit-derived emotions; not validated on educational dialogue",
+    "Single-label subset excludes multi-label examples",
+    "No knowledge state or conversational tutoring evaluated in Phase II"
+  ]
+}

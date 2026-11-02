@@ -1,0 +1,5 @@
+variant,challenge,hint,worked_example
+emotion_only,0.0,1.0,0.0
+generic,0.0,1.0,0.0
+knowledge_only,0.5416666666666666,0.0,0.4583333333333333
+knowledge_plus_predicted_emotion,0.5416666666666666,0.0,0.4583333333333333

@@ -1,0 +1,19 @@
+AKC-Tutor Phase V - verified workbook validation and statistical analysis
+96 matched response IDs, 24 scenarios, 4 variants, 2 rater files; 192 complete ratings; no proxies used.
+Rater independence is user-attested, not independently authenticated.
+Rating columns 1-5, all present; comments optional and blank.
+Scenario-level inference: average the two raters for each scenario and variant; 30,000 paired bootstrap resamples; 200,000 sign flips; Holm correction over four outcomes. Monte Carlo p values depend on seed.
+The 96 responses are researcher-authored scenario/template responses; not real learner outcomes.
+Inter-rater quadratic weighted kappa and observed agreement:
+                criterion  exact_agreement  quadratic_weighted_kappa  unweighted_kappa  mean_absolute_difference
+              correctness         0.822917                  0.767786          0.688550                  0.177083
+              helpfulness         0.447917                  0.638126          0.198488                  0.562500
+knowledge_appropriateness         0.500000                  0.510100          0.121449                  0.500000
+affective_appropriateness         0.718750                  0.608696          0.435417                  0.281250
+
+Paired comparison:
+                criterion  mean_difference  ci95_lower  ci95_upper  p_value  positive_scenarios  negative_scenarios  ties  holm_adjusted_p
+              correctness         0.000000   -0.083333    0.083333 1.000000                   2                   2    20           1.0000
+              helpfulness         0.083333   -0.125000    0.270833 0.549792                   8                   4    12           1.0000
+knowledge_appropriateness         0.062500   -0.083333    0.208333 0.594237                   5                   2    17           1.0000
+affective_appropriateness         0.458333    0.208333    0.708333 0.003400                  11                   2    11           0.0136

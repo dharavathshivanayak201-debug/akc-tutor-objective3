@@ -1,0 +1,10 @@
+{
+  "source": "Phase III held-out predicted probabilities",
+  "quantiles": {
+    "low": 0.4306987486231599,
+    "medium": 0.8367195489743569,
+    "high": 0.9102973386870127
+  },
+  "paired_with_dialogue": false,
+  "note": "scenario conditions, not matched learner records"
+}

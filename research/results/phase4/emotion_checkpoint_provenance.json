@@ -1,0 +1,6 @@
+{
+  "source": "retrained_on_goemotions_train_dev_selection",
+  "model_id": "FacebookAI/roberta-base",
+  "single_label": true,
+  "phase2_test_not_used": true
+}

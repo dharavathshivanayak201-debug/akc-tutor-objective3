@@ -1,0 +1,17 @@
+{
+  "train": {
+    "rows": 331474,
+    "learners": 2905,
+    "positive_rate": 0.6940906375764012
+  },
+  "validation": {
+    "rows": 57680,
+    "learners": 622,
+    "positive_rate": 0.6869625520110957
+  },
+  "test": {
+    "rows": 57690,
+    "learners": 624,
+    "positive_rate": 0.7097070549488647
+  }
+}

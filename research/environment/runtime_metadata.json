@@ -1,0 +1,5 @@
+{
+  "packaging_python": "3.13.5",
+  "notebook_runtime": "Google Colab; see each notebook and run_metadata.json",
+  "version_lock": "Not available for all phases; requirements are unpinned, not a verified environment lock"
+}

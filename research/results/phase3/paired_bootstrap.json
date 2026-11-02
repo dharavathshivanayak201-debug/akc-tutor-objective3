@@ -1,0 +1,9 @@
+{
+  "delta_auc_fusion_minus_knowledge": 0.03411243151049814,
+  "learner_cluster_bootstrap_95pct_ci": [
+    0.027804027963549586,
+    0.041903552353944544
+  ],
+  "bootstrap_replicates": 500,
+  "interpretation": "Behavioral-proxy fusion only; no measured affect unless matched data supplied."
+}

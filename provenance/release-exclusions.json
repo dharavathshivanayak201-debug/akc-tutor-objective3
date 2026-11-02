@@ -1,0 +1,8 @@
+[
+  {
+    "path": "results/phase3/test_predictions_anonymized.csv",
+    "sha256": "cd638c5f398a3b2d1a1f3868ff4c8e337a86478190135f9c090e8893cde90b40",
+    "bytes": 7921942,
+    "reason": "Learner-level pseudonymous predictions include original source row indices and skill names; held privately pending dataset redistribution and privacy review. Derived aggregate reanalysis is included."
+  }
+]

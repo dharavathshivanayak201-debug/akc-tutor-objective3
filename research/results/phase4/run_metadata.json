@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-11-02T15:17:23.225923+00:00",
+  "experiment": "AKC-Tutor Phase IV controlled response policy ablation",
+  "scenario_count": 24,
+  "variants": [
+    "generic",
+    "knowledge_only",
+    "emotion_only",
+    "knowledge_plus_predicted_emotion"
+  ],
+  "seed": 42,
+  "gpu": "NVIDIA L4",
+  "torch": "2.11.0+cu130",
+  "transformers_model": "FacebookAI/roberta-base",
+  "sklearn": "1.6.1",
+  "phase3_source": "https://raw.githubusercontent.com/CAHLR/pyBKT-examples/master/data/as.csv",
+  "phase3_sha256": "f22e3fb7872c1784ce93b0f9ebabbe0cbcac4f896fd8b4a11667b9715d77dbdc",
+  "phase3_model_file": "knowledge_plus_behavior_proxy.joblib",
+  "phase3_heldout_probability_distribution_used": true,
+  "phase3_model_loaded": true,
+  "phase3_model_used_for_new_scenario_inference": false,
+  "phase3_inference_limitation": "No matched scenario-level historical learner features; uses observed Phase III test probabilities as illustrative state conditions",
+  "emotion_checkpoint_provenance": "retrained on official GoEmotions train with dev epoch selection",
+  "emotion_predictions_are_not_ground_truth": true,
+  "scenario_dialogues_researcher_authored": true,
+  "scenario_dialogue_matched_to_phase3_students": false,
+  "pedagogical_policy": "auditable controlled template-based response policy; not a trained generative LLM",
+  "evaluations": "mechanical rule conformance and response-action sensitivity, not human-rated pedagogical quality or learning gain",
+  "limitation": "Do not claim verified student emotions, multimodal learner alignment, or improvement in learning outcomes."
+}

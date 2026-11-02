@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this Objective 3 repository and the accompanying AKC-Tutor manuscript; no publication DOI is asserted."
+title: "AKC-Tutor: An Affect- and Knowledge-Aware Conversational AI Framework for Personalized Intelligent Tutoring"
+type: software
+authors:
+  - family-names: Dharavath
+    given-names: Shiva Nayak
+  - family-names: Shanmugam
+    given-names: Raju
+repository-code: "https://github.com/dharavathshivanayak201-debug/akc-tutor-objective3"
+url: "https://github.com/dharavathshivanayak201-debug/akc-tutor-objective3"
+abstract: "Objective 3 research companion: preserved notebooks, manuscript, component results, deterministic tutoring responses, anonymized ratings and saved-output verification. Not an end-to-end learner-effectiveness validation."
+keywords:
+  - intelligent tutoring
+  - affective computing
+  - educational prediction
+  - reproducibility

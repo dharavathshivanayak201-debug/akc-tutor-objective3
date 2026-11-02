@@ -1,0 +1,5 @@
+variant,grounded_topic,contains_followup_check,policy_conformity,words
+emotion_only,1.0,1.0,1.0,26.958333333333332
+generic,1.0,1.0,1.0,25.666666666666668
+knowledge_only,1.0,1.0,1.0,27.333333333333332
+knowledge_plus_predicted_emotion,1.0,1.0,1.0,28.625

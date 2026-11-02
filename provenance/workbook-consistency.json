@@ -1,0 +1,8 @@
+{
+  "method": "Read both supplied workbooks with openpyxl through xlsx_repl; compare every data cell in order with corresponding supplied CSV, coercing the four criteria to integers. No workbooks modified.",
+  "checks": [
+    {"workbook": "research/evaluation/BLINDED_RATINGS_R1_anonymized.xlsx", "sheet": "R1_ratings", "range": "A1:I97", "rating_rows": 96, "all_values_equal_csv": true, "formula_cells": 0},
+    {"workbook": "research/evaluation/BLINDED_RATINGS_R2_anonymized.xlsx", "sheet": "R2_ratings", "range": "A1:I97", "rating_rows": 96, "all_values_equal_csv": true, "formula_cells": 0}
+  ],
+  "limitation": "Cell consistency does not authenticate evaluators, blinding, independence, consent, or evaluation dates."
+}

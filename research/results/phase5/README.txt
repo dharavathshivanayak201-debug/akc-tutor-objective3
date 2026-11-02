@@ -1,0 +1,1 @@
+AKC-Tutor Phase V. PRIVATE_variant_key.csv must NOT be shared with raters until rating complete. Blank rating packets are not human evidence. If ratings were supplied, see human_rating_summary.csv, paired_human_comparisons.csv, inter_rater_agreement.csv. Automated checks are not human quality ratings. No student learning gains measured.

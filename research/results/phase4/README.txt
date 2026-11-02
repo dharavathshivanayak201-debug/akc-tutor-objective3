@@ -1,0 +1,1 @@
+AKC-Tutor Phase IV. Controlled researcher-authored dialogue scenarios and rule-based instructional responses. Emotion is RoBERTa-predicted; knowledge states are illustrative probabilities drawn from Phase III held-out model outputs, NOT matched to dialogue. No learning-gain claims. Read run_metadata.json.

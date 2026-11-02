@@ -1,0 +1,25 @@
+scenario_id,skill,student_text,scenario_knowledge_level,author_intended_affect,knowledge_probability
+S001,linear equations,I do not understand why we move the 3 to the other side.,low,confusion,0.4306987486231599
+S002,linear equations,I tried twice and I keep getting the wrong answer. This is frustrating.,low,frustration,0.4306987486231599
+S003,linear equations,I think I can solve 2x + 3 = 11. Can I try a harder one?,high,confidence,0.9102973386870127
+S004,linear equations,Can you give me a hint rather than the answer?,medium,curiosity,0.8367195489743569
+S005,fractions,I am confused about adding fractions with different denominators.,low,confusion,0.4306987486231599
+S006,fractions,I keep making mistakes with common denominators and I am annoyed.,low,frustration,0.4306987486231599
+S007,fractions,I understand equivalent fractions now. What is next?,high,confidence,0.9102973386870127
+S008,fractions,Could you show one example of adding one half and one third?,medium,curiosity,0.8367195489743569
+S009,probability,I do not know how to calculate the probability of two independent events.,low,confusion,0.4306987486231599
+S010,probability,This probability problem is so frustrating. I have tried several times.,low,frustration,0.4306987486231599
+S011,probability,I know how independent events work. Give me a challenge.,high,confidence,0.9102973386870127
+S012,probability,Why do we multiply the probabilities?,medium,curiosity,0.8367195489743569
+S013,linear equations,I feel nervous about this equation test. I need a simple explanation.,low,nervousness,0.4306987486231599
+S014,fractions,I am worried that I will fail the fraction quiz.,low,nervousness,0.4306987486231599
+S015,probability,I am excited to learn a more difficult probability problem.,high,excitement,0.9102973386870127
+S016,linear equations,"Thanks, that explanation was helpful.",high,gratitude,0.9102973386870127
+S017,fractions,Please repeat the previous step.,medium,neutral,0.8367195489743569
+S018,probability,What does sample space mean?,medium,curiosity,0.8367195489743569
+S019,linear equations,I am lost. Can we start from the basics?,low,confusion,0.4306987486231599
+S020,fractions,"I can do this now, but I want to check my method.",high,confidence,0.9102973386870127
+S021,probability,I cannot figure this out. It makes me angry.,low,anger,0.4306987486231599
+S022,linear equations,I want to know what happens when there are brackets.,high,curiosity,0.9102973386870127
+S023,fractions,I have no idea what the numerator means.,low,confusion,0.4306987486231599
+S024,probability,Can you give me a short practice question?,medium,neutral,0.8367195489743569

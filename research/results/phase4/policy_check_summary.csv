@@ -1,0 +1,5 @@
+variant,n,grounded_topic_rate,followup_check_rate,policy_conformity_rate,mean_response_words,emotion_ack_rate
+emotion_only,24,1.0,1.0,1.0,26.958333333333332,1.0
+generic,24,1.0,1.0,1.0,25.666666666666668,0.0
+knowledge_only,24,1.0,1.0,1.0,27.333333333333332,0.0
+knowledge_plus_predicted_emotion,24,1.0,1.0,1.0,28.625,1.0

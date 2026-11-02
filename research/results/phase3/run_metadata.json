@@ -1,0 +1,17 @@
+{
+  "dataset_source": "https://raw.githubusercontent.com/CAHLR/pyBKT-examples/master/data/as.csv",
+  "dataset_sha256": "f22e3fb7872c1784ce93b0f9ebabbe0cbcac4f896fd8b4a11667b9715d77dbdc",
+  "rows_raw": 525534,
+  "rows_clean": 446844,
+  "num_learners": 4151,
+  "num_skills": 110,
+  "python_seed": 42,
+  "scikit_learn_version": "1.6.1",
+  "pandas_version": "2.2.3",
+  "split": "learner-disjoint approximately 70/15/15",
+  "history_features": "past-only per-learner and per-skill",
+  "true_affect_mode": false,
+  "behavior_proxy_is_emotion": false,
+  "primary_endpoint": "held-out next-response correctness ROC-AUC",
+  "warning": "Do not describe behavior-proxy fusion as emotion-aware fusion. Real affect requires aligned independent learner observations."
+}

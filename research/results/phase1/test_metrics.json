@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.5618736383442265,
+  "macro_f1": 0.37358474434775174,
+  "weighted_f1": 0.5267252476916996,
+  "n_train": 36308,
+  "n_dev": 4548,
+  "n_test": 4590,
+  "best_C": 10.0,
+  "seed": 42,
+  "label_count": 28,
+  "data_subset": "single-label rows of official simplified GoEmotions",
+  "test_used_for_tuning": false,
+  "macro_f1_bootstrap_95ci": [
+    0.35665427538940325,
+    0.3884346017591199
+  ],
+  "bootstrap_replicates": 1000
+}

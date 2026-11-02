@@ -1,0 +1,5 @@
+variant,correctness_mean,correctness_std,helpfulness_mean,helpfulness_std,knowledge_appropriateness_mean,knowledge_appropriateness_std,affective_appropriateness_mean,affective_appropriateness_std
+emotion_only,4.1875,0.6069,3.4583,0.8241,3.625,0.64,3.3125,0.5518
+generic,4.0833,0.5392,3.1667,0.7532,3.3542,0.6681,2.7917,0.5035
+knowledge_only,4.5208,0.6185,3.4792,0.8503,3.5,0.7146,2.9792,0.5255
+knowledge_plus_predicted_emotion,4.5208,0.5831,3.5625,0.9655,3.5625,0.6493,3.4375,0.5421
